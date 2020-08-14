@@ -18,3 +18,10 @@ def output_array(array)
     counter += 1
   end
 end
+
+def return_string_array(array)
+  return_array = []
+  while array[0] do
+    return_array.unshift(array.shift())
+  end
+end
