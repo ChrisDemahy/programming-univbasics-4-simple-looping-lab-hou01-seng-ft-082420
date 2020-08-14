@@ -24,4 +24,5 @@ def return_string_array(array)
   while array[0] do
     return_array.unshift(array.shift())
   end
+  return_array
 end
