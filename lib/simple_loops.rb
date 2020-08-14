@@ -16,4 +16,5 @@ def output_array(array)
   while array[counter] do
     puts array[counter]
     counter++
-  end 
+  end
+end
