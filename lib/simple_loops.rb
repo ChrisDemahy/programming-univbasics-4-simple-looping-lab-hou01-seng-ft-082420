@@ -22,7 +22,7 @@ end
 def return_string_array(array)
   return_array = []
   while array[0] do
-    return_array.unshift(array.shift())
+    return_array.unshift(array.shift().to_s)
   end
   return_array
 end
